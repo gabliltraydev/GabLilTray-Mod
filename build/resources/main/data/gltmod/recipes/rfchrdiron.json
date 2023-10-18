@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gltmod:hardened_iron_block"
+    },
+    "1": {
+      "item": "gltmod:hardened_iron_block"
+    },
+    "2": {
+      "item": "gltmod:hardened_iron_block"
+    },
+    "3": {
+      "item": "gltmod:hardened_iron_orb"
+    },
+    "4": {
+      "item": "gltmod:hardened_iron_orb"
+    },
+    "5": {
+      "item": "gltmod:hardened_iron_orb"
+    },
+    "6": {
+      "item": "gltmod:hardened_iron_block"
+    },
+    "7": {
+      "item": "gltmod:hardened_iron_block"
+    },
+    "8": {
+      "item": "gltmod:hardened_iron_block"
+    }
+  },
+  "result": {
+    "item": "gltmod:renforcied_hardened_iron",
+    "count": 1
+  }
+}

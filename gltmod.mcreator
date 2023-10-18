@@ -34,14 +34,14 @@
       "registry_name": "hardened_iron_ore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/gltmod/blockstates/hardened_iron_ore.json",
           "src/main/resources/data/gltmod/worldgen/configured_feature/hardened_iron_ore.json",
-          "src/main/java/fr/glt/gltmod/world/features/ores/HardenedIronOreFeature.java",
-          "src/main/resources/assets/gltmod/models/block/hardened_iron_ore.json",
-          "src/main/resources/data/gltmod/forge/biome_modifier/hardened_iron_ore_biome_modifier.json",
-          "src/main/resources/data/gltmod/worldgen/placed_feature/hardened_iron_ore.json",
-          "src/main/java/fr/glt/gltmod/block/HardenedIronOreBlock.java",
           "src/main/resources/assets/gltmod/models/item/hardened_iron_ore.json",
-          "src/main/resources/assets/gltmod/blockstates/hardened_iron_ore.json"
+          "src/main/java/fr/glt/gltmod/world/features/ores/HardenedIronOreFeature.java",
+          "src/main/resources/data/gltmod/forge/biome_modifier/hardened_iron_ore_biome_modifier.json",
+          "src/main/java/fr/glt/gltmod/block/HardenedIronOreBlock.java",
+          "src/main/resources/data/gltmod/worldgen/placed_feature/hardened_iron_ore.json",
+          "src/main/resources/assets/gltmod/models/block/hardened_iron_ore.json"
         ]
       }
     },
@@ -54,8 +54,8 @@
       "registry_name": "hardened_iron_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gltmod/models/item/hardened_iron_block.json",
           "src/main/resources/assets/gltmod/blockstates/hardened_iron_block.json",
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_block.json",
           "src/main/java/fr/glt/gltmod/block/HardenedIronBlockBlock.java",
           "src/main/resources/assets/gltmod/models/block/hardened_iron_block.json"
         ]
@@ -123,8 +123,8 @@
       "registry_name": "hardened_iron_axe",
       "metadata": {
         "files": [
-          "src/main/java/fr/glt/gltmod/item/HardenedIronAxeItem.java",
-          "src/main/resources/assets/gltmod/models/item/hardened_iron_axe.json"
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_axe.json",
+          "src/main/java/fr/glt/gltmod/item/HardenedIronAxeItem.java"
         ]
       }
     },
@@ -137,8 +137,8 @@
       "registry_name": "hardened_iron_sword",
       "metadata": {
         "files": [
-          "src/main/java/fr/glt/gltmod/item/HardenedIronSwordItem.java",
-          "src/main/resources/assets/gltmod/models/item/hardened_iron_sword.json"
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_sword.json",
+          "src/main/java/fr/glt/gltmod/item/HardenedIronSwordItem.java"
         ]
       }
     },
@@ -244,10 +244,10 @@
       "registry_name": "hardened_iron_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gltmod/models/item/hardened_iron_armor_helmet.json",
-          "src/main/resources/assets/gltmod/models/item/hardened_iron_armor_leggings.json",
           "src/main/resources/assets/gltmod/models/item/hardened_iron_armor_boots.json",
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_armor_helmet.json",
           "src/main/java/fr/glt/gltmod/item/HardenedIronArmorItem.java",
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_armor_leggings.json",
           "src/main/resources/assets/gltmod/models/item/hardened_iron_armor_chestplate.json"
         ]
       }
@@ -365,21 +365,21 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.gltmod.hardened_iron_pickaxe": "HardenedIron Pickaxe",
-      "item.gltmod.hardened_iron_axe": "HardenedIron Axe",
-      "block.gltmod.hardened_iron_block": "Block of HardenedIron",
-      "item.gltmod.hardened_iron_shovel": "HardenedIron Shovel",
+      "item.gltmod.hardened_iron_pickaxe": "Hardened Iron Pickaxe",
+      "item.gltmod.hardened_iron_axe": "Hardened Iron Axe",
+      "block.gltmod.hardened_iron_block": "Block of Hardened Iron",
+      "item.gltmod.hardened_iron_shovel": "Hardened Iron Shovel",
       "block.gltmod.renforcied_hardened_iron": "Renforcied Hardened Iron",
-      "item.gltmod.hardened_iron_ingot": "HardenedIron",
-      "item.gltmod.hardened_iron_armor_boots": "HardenedIron Boots",
-      "item.gltmod.hardened_iron_sword": "HardenedIron Sword",
-      "item.gltmod.hardened_iron_armor_helmet": "HardenedIron Helmet",
-      "item.gltmod.hardened_iron_hoe": "HardenedIron Hoe",
+      "item.gltmod.hardened_iron_ingot": "Hardened Iron",
+      "item.gltmod.hardened_iron_armor_boots": "Hardened Iron Boots",
+      "item.gltmod.hardened_iron_sword": "Hardened Iron Sword",
+      "item.gltmod.hardened_iron_armor_helmet": "Hardened Iron Helmet",
+      "item.gltmod.hardened_iron_hoe": "Hardened Iron Hoe",
       "item.gltmod.hardened_iron_orb": "Hardened Iron Orb",
-      "item.gltmod.hardened_iron_armor_chestplate": "HardenedIron Chestplate",
-      "item.gltmod.hardened_iron_armor_leggings": "HardenedIron Leggings",
+      "item.gltmod.hardened_iron_armor_chestplate": "Hardened Iron Chestplate",
+      "item.gltmod.hardened_iron_armor_leggings": "Hardened Iron Leggings",
       "item_group.gltmod.glt_mod": "GLT Mod",
-      "block.gltmod.hardened_iron_ore": "HardenedIron Ore"
+      "block.gltmod.hardened_iron_ore": "Hardened Iron Ore"
     }
   },
   "foldersRoot": {

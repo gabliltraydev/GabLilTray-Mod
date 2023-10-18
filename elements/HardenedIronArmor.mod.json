@@ -11,13 +11,13 @@
     "enableBoots": true,
     "textureBoots": "hardenediron_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:GLTMod"
     },
     "armorTextureFile": "hardenediron",
-    "helmetName": "HardenedIron Helmet",
-    "bodyName": "HardenedIron Chestplate",
-    "leggingsName": "HardenedIron Leggings",
-    "bootsName": "HardenedIron Boots",
+    "helmetName": "Hardened Iron Helmet",
+    "bodyName": "Hardened Iron Chestplate",
+    "leggingsName": "Hardened Iron Leggings",
+    "bootsName": "Hardened Iron Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],

@@ -6,10 +6,10 @@
     "renderType": 0,
     "texture": "hardenediron_pickaxe",
     "customModelName": "Normal",
-    "name": "HardenedIron Pickaxe",
+    "name": "Hardened Iron Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:GLTMod"
     },
     "harvestLevel": 3,
     "efficiency": 8.0,

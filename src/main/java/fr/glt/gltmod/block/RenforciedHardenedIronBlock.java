@@ -15,7 +15,7 @@ import java.util.Collections;
 
 public class RenforciedHardenedIronBlock extends FallingBlock {
 	public RenforciedHardenedIronBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(3f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(4f, 10f));
 	}
 
 	@Override

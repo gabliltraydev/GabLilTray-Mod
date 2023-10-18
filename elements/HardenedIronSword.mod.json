@@ -6,10 +6,10 @@
     "renderType": 0,
     "texture": "hardenediron_sword",
     "customModelName": "Normal",
-    "name": "HardenedIron Sword",
+    "name": "Hardened Iron Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:GLTMod"
     },
     "harvestLevel": 3,
     "efficiency": 8.0,

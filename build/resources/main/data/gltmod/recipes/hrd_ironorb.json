@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "1": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "2": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:redstone_block"
+    },
+    "4": {
+      "item": "minecraft:redstone"
+    },
+    "5": {
+      "item": "minecraft:redstone_block"
+    },
+    "6": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "7": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "8": {
+      "item": "gltmod:hardened_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "gltmod:hardened_iron_orb",
+    "count": 1
+  }
+}

@@ -6,10 +6,10 @@
     "renderType": 0,
     "texture": "hardenediron_shovel",
     "customModelName": "Normal",
-    "name": "HardenedIron Shovel",
+    "name": "Hardened Iron Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:GLTMod"
     },
     "harvestLevel": 3,
     "efficiency": 8.0,
