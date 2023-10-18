@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "1": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "2": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "3": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "5": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "6": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "8": {
+      "item": "gltmod:hardened_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "gltmod:hardened_iron_armor_leggings",
+    "count": 1
+  }
+}

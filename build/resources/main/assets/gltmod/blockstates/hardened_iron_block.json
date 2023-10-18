@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gltmod:block/hardened_iron_block"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "item.gltmod.hardened_iron_pickaxe": "HardenedIron Pickaxe",
+  "item.gltmod.hardened_iron_axe": "HardenedIron Axe",
+  "block.gltmod.hardened_iron_block": "Block of HardenedIron",
+  "item.gltmod.hardened_iron_shovel": "HardenedIron Shovel",
+  "block.gltmod.renforcied_hardened_iron": "Renforcied Hardened Iron",
+  "item.gltmod.hardened_iron_ingot": "HardenedIron",
+  "item.gltmod.hardened_iron_armor_boots": "HardenedIron Boots",
+  "item.gltmod.hardened_iron_sword": "HardenedIron Sword",
+  "item.gltmod.hardened_iron_armor_helmet": "HardenedIron Helmet",
+  "item.gltmod.hardened_iron_hoe": "HardenedIron Hoe",
+  "item.gltmod.hardened_iron_orb": "Hardened Iron Orb",
+  "item.gltmod.hardened_iron_armor_chestplate": "HardenedIron Chestplate",
+  "item.gltmod.hardened_iron_armor_leggings": "HardenedIron Leggings",
+  "item_group.gltmod.glt_mod": "GLT Mod",
+  "block.gltmod.hardened_iron_ore": "HardenedIron Ore"
+}

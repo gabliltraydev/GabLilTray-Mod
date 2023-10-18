@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "1": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "2": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "3": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "4": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "5": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "6": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "7": {
+      "item": "gltmod:hardened_iron_ingot"
+    },
+    "8": {
+      "item": "gltmod:hardened_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "gltmod:hardened_iron_block",
+    "count": 1
+  }
+}

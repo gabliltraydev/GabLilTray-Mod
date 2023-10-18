@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "gltmod:hardened_iron_block",
+    "gltmod:hardened_iron_ore"
+  ]
+}

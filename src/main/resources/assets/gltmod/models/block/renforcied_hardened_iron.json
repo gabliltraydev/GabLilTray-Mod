@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gltmod:block/rfchrdirn",
+    "up": "gltmod:block/rfchrdirn",
+    "north": "gltmod:block/rfchrdirn",
+    "east": "gltmod:block/rfchrdirn",
+    "south": "gltmod:block/rfchrdirn",
+    "west": "gltmod:block/rfchrdirn",
+    "particle": "gltmod:block/rfchrdirn"
+  },
+  "render_type": "solid"
+}

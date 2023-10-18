@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HardenedIronBlock"
+      },
+      {
+        "value": "CUSTOM:HardenedIronBlock"
+      },
+      {
+        "value": "CUSTOM:HardenedIronBlock"
+      },
+      {
+        "value": "CUSTOM:HardenedIronOrb"
+      },
+      {
+        "value": "CUSTOM:HardenedIronOrb"
+      },
+      {
+        "value": "CUSTOM:HardenedIronOrb"
+      },
+      {
+        "value": "CUSTOM:HardenedIronBlock"
+      },
+      {
+        "value": "CUSTOM:HardenedIronBlock"
+      },
+      {
+        "value": "CUSTOM:HardenedIronBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RenforciedHardenedIron"
+    },
+    "name": "rfchrdiron",
+    "namespace": "mod"
+  }
+}
