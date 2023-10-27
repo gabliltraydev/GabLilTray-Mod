@@ -1,0 +1,407 @@
+{
+  "mod_elements": [
+    {
+      "name": "GLTMod",
+      "type": "tab",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glt_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HardenedIronIngot",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_ingot.json",
+          "src/main/java/fr/glt/gltmod/item/HardenedIronIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gltmod/blockstates/hardened_iron_ore.json",
+          "src/main/resources/data/gltmod/worldgen/configured_feature/hardened_iron_ore.json",
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_ore.json",
+          "src/main/java/fr/glt/gltmod/world/features/ores/HardenedIronOreFeature.java",
+          "src/main/resources/data/gltmod/forge/biome_modifier/hardened_iron_ore_biome_modifier.json",
+          "src/main/java/fr/glt/gltmod/block/HardenedIronOreBlock.java",
+          "src/main/resources/data/gltmod/worldgen/placed_feature/hardened_iron_ore.json",
+          "src/main/resources/assets/gltmod/models/block/hardened_iron_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gltmod/blockstates/hardened_iron_block.json",
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_block.json",
+          "src/main/java/fr/glt/gltmod/block/HardenedIronBlockBlock.java",
+          "src/main/resources/assets/gltmod/models/block/hardened_iron_block.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gltmod/recipes/hardened_iron_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gltmod/recipes/hardened_iron_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronOreSmelting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gltmod/recipes/hardened_iron_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_pickaxe.json",
+          "src/main/java/fr/glt/gltmod/item/HardenedIronPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronAxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_axe.json",
+          "src/main/java/fr/glt/gltmod/item/HardenedIronAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronSword",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_sword.json",
+          "src/main/java/fr/glt/gltmod/item/HardenedIronSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronShovel",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_shovel.json",
+          "src/main/java/fr/glt/gltmod/item/HardenedIronShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronHoe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_hoe.json",
+          "src/main/java/fr/glt/gltmod/item/HardenedIronHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gltmod/recipes/hardened_iron_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronAxeRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gltmod/recipes/hardened_iron_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronSwordRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gltmod/recipes/hardened_iron_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronShovelRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gltmod/recipes/hardened_iron_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronHoeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gltmod/recipes/hardened_iron_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronArmor",
+      "type": "armor",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_armor_boots.json",
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_armor_helmet.json",
+          "src/main/java/fr/glt/gltmod/item/HardenedIronArmorItem.java",
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_armor_leggings.json",
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gltmod/recipes/hardened_iron_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gltmod/recipes/hardened_iron_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gltmod/recipes/hardened_iron_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gltmod/recipes/hardened_iron_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RenforciedHardenedIron",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforcied_hardened_iron",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/glt/gltmod/block/RenforciedHardenedIronBlock.java",
+          "src/main/resources/assets/gltmod/blockstates/renforcied_hardened_iron.json",
+          "src/main/resources/assets/gltmod/models/item/renforcied_hardened_iron.json",
+          "src/main/resources/assets/gltmod/models/block/renforcied_hardened_iron.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedIronOrb",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_iron_orb",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/glt/gltmod/item/HardenedIronOrbItem.java",
+          "src/main/resources/assets/gltmod/models/item/hardened_iron_orb.json"
+        ]
+      }
+    },
+    {
+      "name": "HrdIronorb",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hrd_ironorb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gltmod/recipes/hrd_ironorb.json"
+        ]
+      }
+    },
+    {
+      "name": "Rfchrdiron",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rfchrdiron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gltmod/recipes/rfchrdiron.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.gltmod.hardened_iron_pickaxe": "Hardened Iron Pickaxe",
+      "item.gltmod.hardened_iron_axe": "Hardened Iron Axe",
+      "block.gltmod.hardened_iron_block": "Block of Hardened Iron",
+      "item.gltmod.hardened_iron_shovel": "Hardened Iron Shovel",
+      "block.gltmod.renforcied_hardened_iron": "Renforcied Hardened Iron",
+      "item.gltmod.hardened_iron_ingot": "Hardened Iron",
+      "item.gltmod.hardened_iron_armor_boots": "Hardened Iron Boots",
+      "item.gltmod.hardened_iron_sword": "Hardened Iron Sword",
+      "item.gltmod.hardened_iron_armor_helmet": "Hardened Iron Helmet",
+      "item.gltmod.hardened_iron_hoe": "Hardened Iron Hoe",
+      "item.gltmod.hardened_iron_orb": "Hardened Iron Orb",
+      "item.gltmod.hardened_iron_armor_chestplate": "Hardened Iron Chestplate",
+      "item.gltmod.hardened_iron_armor_leggings": "Hardened Iron Leggings",
+      "item_group.gltmod.glt_mod": "GLT Mod",
+      "block.gltmod.hardened_iron_ore": "Hardened Iron Ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gltmod",
+    "modName": "GabLiltray Mod",
+    "version": "1.0.0",
+    "author": "gabriel, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "fr.glt.gltmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
